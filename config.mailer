@@ -1,0 +1,23 @@
+#location of the persistent log file 
+LOG_FILE=/home/pi/Alerting/MONITOR.log
+
+#location of the temporary folders (need to have Read and Write permissions)
+MAIL_BODY=/home/pi/Alerting/mailtext
+IP_BUFFER=/home/pi/Alerting/ip_buffer.txt
+ATTACK_CONFIG=/home/pi/Alerting/.Alert_congig
+SQL_BUFFER=/home/pi/Alerting/insert.sql
+
+#e-mail address of the receiver 
+E_MAIL=123.456@gmail.com
+
+#the public IP that we want to test connectivity and latency with
+IP_TO_TEST=8.8.8.8
+
+#the threshold after which the script will send mail 
+PING_THR=50 
+
+#Database related details
+SQL_USER=<the_DB_user>
+SQL_PASS=<The_password_for_the_above_user>
+DB_NAME=<The_database_name>
+NUME_TABELA=<The_tabel_in_the_database>
