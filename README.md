@@ -10,7 +10,8 @@ Currently all changes are logged in a local SQL database (MariaDB is a testet an
 Also we are probing for the responsetime with a given IP. If the threashold is exceded a new w-mail notification will be sent 
 
 Things to improve:
-1) introduce the option for a monthly report 
-2) make the database optional
-3) brute force detection
+1) introduce the option for a monthly report - working on it 
+2) make the database optional - done
+3) brute force detection (better algorithm)
 4) much more efective ping probing  
+5) ping probig optional - done 
