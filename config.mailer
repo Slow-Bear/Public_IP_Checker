@@ -11,12 +11,16 @@ SQL_BUFFER=/home/pi/Alerting/insert.sql
 E_MAIL=123.456@gmail.com
 
 #the public IP that we want to test connectivity and latency with
+#if the value is 0 then the function is disabled
 IP_TO_TEST=8.8.8.8
 
 #the threshold after which the script will send mail 
 PING_THR=50 
 
 #Database related details
+DATABASE_ENABLE=TRUE
+#if the DATABASE_ENABLE is set to FALSE the script will append the log
+#and send e-mail only
 SQL_USER=<the_DB_user>
 SQL_PASS=<The_password_for_the_above_user>
 DB_NAME=<The_database_name>
